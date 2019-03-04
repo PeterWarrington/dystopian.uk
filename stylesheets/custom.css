@@ -1,6 +1,9 @@
 body {
     font-family: nta, sans-serif;
 }
+body * {
+    margin: 0 auto;
+}
 #dystopian {
     position: relative;
     bottom: 4px;
@@ -70,4 +73,21 @@ body {
 }
 .link-box * {
     color: #FFF;
+}
+#container {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.govuk-template {
+    background-color: #D5E8F3;
+}
+.govuk-footer {
+    background-color: #D5E8F3;
 }
